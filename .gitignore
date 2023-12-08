@@ -1,0 +1,15 @@
+# Ignore ccls files
+/.ccls-cache
+
+# Ignore executables and applications
+*.exe
+*.out
+*.app
+
+# Ignore GCC compiled files
+*.o
+*.a
+*.so
+
+# Ignore PDF
+*.pdf
