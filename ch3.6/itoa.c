@@ -63,7 +63,7 @@ void itoa(int n, char s[])
     isMin = n != 0 && n == -n;
     if ((sign = n) < 0){ /* write sign */
         if (isMin)
-            n +=1;
+            n /= 10;
         n = -n; /* make number positive */
     }
 
