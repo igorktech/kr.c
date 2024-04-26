@@ -1,14 +1,13 @@
 #include "stdio.h"
 
-#define IN 1 /* внутри слова */
+#define IN 1  /* внутри слова */
 #define OUT 0 /* снаружи слова */
 
 /* подсчет строк, слов и символов во входном потоке*/
-int main()
-{
+int main() {
     int c, nc, nl, nw, state;
     nl = nw = nc = 0;
-    while ((c = getchar()) !=EOF) {
+    while ((c = getchar()) != EOF) {
         ++nc;
         if (c == '\n')
             ++nl;
