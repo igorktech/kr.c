@@ -5,6 +5,8 @@
 *.exe
 *.out
 *.app
+*out
+**/out/
 
 # Ignore GCC compiled files
 *.o
